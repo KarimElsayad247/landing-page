@@ -153,3 +153,39 @@ p, h1 {
     font-weight: bold;
     font-size: 18px;
 }
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+.call-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 80%;
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+
+.call-box p,
+.call-box h2 {
+    padding: 0px;
+    margin: 0px;
+    color: #f9faf8;
+}
+
+.call-box p {
+    font-size: 18px;
+}
+.call-box h2 {
+    font-size: 24px;
+}
+
+.call-signup {
+    border-style: solid;
+    border-color: #f9faf8;
+}
